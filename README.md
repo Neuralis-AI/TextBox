@@ -44,11 +44,13 @@ git clone https://github.com/Neuralis-AI/TextBox.git
 ```
 Open vervolgens naar de map Textbox.   
 
-Voer nu een nieuwe terminal uit in deze map en voer volgende commando uit:
+Voer nu een nieuwe terminal uit in deze map en voer volgende commando's uit:
 ```
+wget https://github.com/mozilla/DeepSpeech/releases/download/v0.8.2/deepspeech-0.8.2-models.scorer
+wget https://github.com/mozilla/DeepSpeech/releases/download/v0.8.2/deepspeech-0.8.2-models.tflite
 python3 mic_vad_streaming.py --device 1 -m deepspeech-0.8.2-models.tflite -s deepspeech-0.8.2-models.scorer
 ```
 Hiermee zie je nu de live tekst van wat er in de microfoon gesproken wordt.
 
 **Remote volgen via een webserver:**   
-# BINNENKORT
+# BINNENKORT, nog een beetje oppoetsen eerst
