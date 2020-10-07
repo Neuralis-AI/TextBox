@@ -35,6 +35,7 @@ sudo pip3 install numpy
 sudo pip3 install deepspeech
 sudo apt-get install libatlas-base-dev
 sudo apt install portaudio19-dev
+pip3 install halo webrtcvad --upgrade
 pip install -r requirements.txt
 ```
 
